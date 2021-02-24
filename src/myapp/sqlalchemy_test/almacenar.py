@@ -1,7 +1,7 @@
-from album import Album
-from cancion import Cancion
-from interprete import Interprete
-from .declarative_base import Base, engine, Session
+from src.myapp.model.album import Album
+from src.myapp.model.cancion import Cancion
+from src.myapp.model.interprete import Interprete
+from src.myapp.model.declarative_base import Base, engine, Session
 
 if __name__ == '__main__':
     # Crea la BD

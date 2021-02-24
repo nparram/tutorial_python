@@ -1,6 +1,6 @@
-from cancion import Cancion
-from interprete import Interprete
-from .declarative_base import Session
+from src.myapp.model.cancion import Cancion
+from src.myapp.model.interprete import Interprete
+from src.myapp.model.declarative_base import Session
 
 if __name__ == '__main__':
   session = Session()

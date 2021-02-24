@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, String, ForeignKey
 
-from .declarative_base import Base
+from declarative_base import Base
 
 
 class Interprete(Base):

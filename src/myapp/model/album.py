@@ -3,7 +3,7 @@ import enum
 from sqlalchemy import Column, Integer, String, Enum
 from sqlalchemy.orm import relationship
 
-from .declarative_base import Base
+from declarative_base import Base
 
 
 class Medio(enum.Emun):

@@ -1,7 +1,7 @@
 from sqlalchemy import Column, Integer, String
 from sqlalchemy.orm import relationship
 
-from .declarative_base import Base
+from declarative_base import Base
 
 class Cancion(Base):
   __tablename__ = 'cancion'

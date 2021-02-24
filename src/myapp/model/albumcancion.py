@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, ForeignKey
 
-from .declarative_base import Base
+from declarative_base import Base
 
 class AlbumCancion(Base):
    __tablename__ = 'album_cancion'
